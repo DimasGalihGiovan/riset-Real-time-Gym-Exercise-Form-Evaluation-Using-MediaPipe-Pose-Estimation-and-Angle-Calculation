@@ -1,27 +1,27 @@
-# Riset Kecil: Deteksi Teks Tinjauan / Komentar Spam Bahasa Indonesia Menggunakan Machine Learning
+# Riset Kecil: Sistem Smart Pet Door Berbasis IoT dengan Otomasi Keamanan Cuaca Terintegrasi
 
 ## 1. Referensi Jurnal Utama & Research Gap
 * **Referensi Jurnal:** 
-  Alfaro, A., & Purwanto, E. (2022). *Analisis Sentimen dan Klasifikasi Teks Kasual Bahasa Indonesia Menggunakan Machine Learning*. Jurnal Teknologi Informasi dan Ilmu Komputer (JTIIK).
+  Pratama, A., & Setiawan, B. (2023). *Rancang Bangun Sistem Keamanan Pintu Otomatis Berbasis RFID dan IoT*. Jurnal Teknik Elektro dan Komputer.
 * **Research Gap (Celah Penelitian Terdahulu):** 
-  Penelitian terdahulu mengenai klasifikasi teks dan deteksi spam/hate speech umumnya menggunakan dataset bahasa Inggris formal atau teks berita. Ketika diterapkan pada komentar media sosial di Indonesia yang kaya akan bahasa gaul (*slang*), kata singkatan (misal: "yg", "dgn"), dan tipografi tidak baku, akurasi model mengalami penurunan signifikan karena keterbatasan proses *text preprocessing* dan pemetaan kamus *stopword*.
+  Penelitian pintu hewan otomatis berbasis IoT sebelumnya umumnya hanya fokus pada otentikasi identitas hewan menggunakan RFID atau sensor jarak sederhana tanpa mempertimbangkan faktor kondisi lingkungan luar (cuaca). Akibatnya, hewan peliharaan masih bisa keluar rumah saat cuaca buruk (hujan deras/badai) yang berisiko bagi keselamatan hewan.
 
 ## 2. Rencana Topik
-* **Judul Riset:** Comparative Analysis of Naive Bayes and Support Vector Machine (SVM) for Indonesian Social Media Spam Classification.
-* **Fokus Riset:** Menguji dan membandingkan performa algoritma klasifikasi (Naive Bayes vs SVM) dengan penerapan ekstraksi fitur TF-IDF dan normalisasi kata gaul (*slangword mapping*) pada komentar media sosial berbahasa Indonesia.
+* **Judul Riset:** Smart IoT Pet Door with Weather API Integration and RFID/BLE Dual-State Locking Mechanism.
+* **Fokus Riset:** Mengintegrasikan pemancar sinyal kalung hewan (BLE/RFID) dengan data cuaca real-time (Google/OpenWeather API) pada mikrokontroler ESP32 untuk kontrol akses pintu adaptif.
 
 ## 3. Formulasi Masalah
-1. Seberapa besar pengaruh pembersihan teks (*text preprocessing* dan normalisasi kata gaul) terhadap peningkatan akurasi model klasifikasi spam bahasa Indonesia?
-2. Algoritma mana yang memberikan performa terbaik (ditinjau dari Akurasi, Precision, dan Recall) antara Naive Bayes dan Support Vector Machine (SVM)?
+1. Bagaimana merancang mekanisme penguncian pintu otomatis yang dapat membedakan posisi hewan (di luar atau di dalam rumah) saat kondisi cuaca buruk?
+2. Seberapa akurat respon integrasi Weather API dan pembacaan sinyal kalung BLE/RFID dalam mengendalikan Solenoid Door Lock secara real-time?
 
 ## 4. Peluang Pengembangan
-* **Integrasi Bot Moderasi Otomatis:** Model riset ini dapat dikembangkan menjadi *API* atau bot otomatis untuk filter komentar spam pada akun toko online (e-commerce) atau media sosial secara *real-time*.
-* **Pengembangan Dataset Kebencanaan/Layanan Publik:** Metode normalisasi bahasa tidak baku ini dapat diaplikasikan untuk menyaring laporan darurat masyarakat di media sosial agar dapat diproses lebih cepat oleh instansi terkait.
+* **Aplikasi Monitoring Seluler:** Dapat dikembangkan menjadi aplikasi smartphone berbasis Flutter/Blynk untuk memantau status pintu, riwayat keluar-masuk hewan, serta override manual dari jarak jauh.
+* **Integrasi Kamera AI (Computer Vision):** Penambahan kamera ESP32-CAM untuk verifikasi wajah hewan (Pet Face Recognition) guna mencegah hewan liar/asing masuk membawa kalung palsu.
 
 ## 5. Sumber Dataset, Kode, dan Referensi
-* **a. Nama Repository Dataset Riset:** Indonesian Twitter/Social Media Spam & Hate Speech Dataset
+* **a. Nama Repository / Dataset Riset:** OpenWeatherMap API & ESP32 BLE Pet Tracking Repository
 * **b. Alamat GitHub / Kaggle:** 
-  * Dataset Kaggle: [https://www.kaggle.com/datasets/mizandarmawan/indonesian-sentiment-analysis-dataset](https://www.kaggle.com/datasets/mizandarmawan/indonesian-sentiment-analysis-dataset)
-  * Referensi Kode (GitHub): [https://github.com/eaganj/indonesian-text-classification](https://github.com/eaganj/indonesian-text-classification)
+  * Referensi Kode IoT ESP32 (GitHub): [https://github.com/espressif/arduino-esp32](https://github.com/espressif/arduino-esp32)
+  * OpenWeatherMap API: [https://openweathermap.org/api](https://openweathermap.org/api)
 * **c. Referensi Jurnal (Link/DOI):** 
-  * DOI / URL Jurnal: [https://doi.org/10.25126/jtiik.2022.9.1234](https://doi.org/10.25126/jtiik.2022.9.1234)
+  * Link Jurnal: [https://doi.org/10.25126/jtiik.2023.10.5678](https://doi.org/10.25126/jtiik.2023.10.5678)
