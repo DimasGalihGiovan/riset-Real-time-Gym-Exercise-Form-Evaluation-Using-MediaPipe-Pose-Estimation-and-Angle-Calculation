@@ -1,4 +1,4 @@
-# Riset Kecil: Real-time Gym Exercise Form Evaluation Using MediaPipe Pose Estimation and Angle Calculation
+# Riset: Real-time Gym Exercise Form Evaluation Using MediaPipe Pose Estimation and Angle Calculation
 
 ## 1. Referensi Jurnal Utama & Research Gap
 * **Referensi Jurnal:** 
